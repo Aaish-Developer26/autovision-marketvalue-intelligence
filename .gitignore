@@ -50,7 +50,6 @@ dataset/pakwheels_clean.csv
 
 
 # Model files
-models/
 *.joblib
 *.pkl
 *.pickle

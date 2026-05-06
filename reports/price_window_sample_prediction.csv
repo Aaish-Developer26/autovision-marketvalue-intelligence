@@ -1,0 +1,2 @@
+Year,Mileage,VehicleAge,MileagePerYear,LogMileage,City,State,Make,Model,MakeModel,PredictedFairValue,LowerPriceBound,UpperPriceBound,PricingWindow
+2017,35000,2,17500,10.463131911491967,Houston,TX,Toyota,Camry,Toyota_Camry,18565.66,13873.93,23478.03,13873.93 - 23478.03
