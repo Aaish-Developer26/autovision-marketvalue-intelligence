@@ -1,0 +1,41 @@
+====================================================================================================
+PAKWHEELS CLEANING AND LOCAL MARKET FEATURE ENGINEERING
+====================================================================================================
+Original shape: (48189, 16)
+Original columns: ['title', 'price', 'city', 'model', 'mileage', 'fuel_type', 'transmission', 'registered', 'color', 'assembly', 'engine_capacity', 'post_date', 'price_category', 'mileage_category', 'post_day_of_week', 'vehicle_age']
+Rows removed due to missing key values: 0
+Duplicate rows removed: 34
+Rows removed by domain filters: 547
+Reference year used for PakWheels VehicleAge: 2024
+Final cleaned shape: (47608, 19)
+Saved cleaned PakWheels dataset to: D:\CPP Project\dataset\pakwheels_clean.csv
+
+Top makes:
+Make
+Toyota        15531
+Suzuki        12379
+Honda         10222
+Daihatsu       2122
+Nissan         1251
+KIA            1228
+Hyundai         954
+Mitsubishi      653
+Changan         484
+Mercedes        450
+MG              295
+Audi            210
+Haval           163
+Proton          150
+BMW             150
+Name: count, dtype: int64
+
+Numeric summary:
+              Price          Year        Mileage    VehicleAge  MileagePerYear  EngineCapacity
+count  4.760800e+04  47608.000000   47608.000000  47608.000000    47608.000000    47608.000000
+mean   4.322982e+06   2013.637981   90331.958662     10.371702    10347.112066     1407.743888
+std    6.021436e+06      7.503427   81980.066620      7.490683     8272.498518      677.060792
+min    1.149990e+05   1990.000000       1.000000      1.000000        0.029412      100.000000
+25%    1.730000e+06   2008.000000   36083.750000      4.000000     5833.333333     1000.000000
+50%    3.050000e+06   2016.000000   80000.000000      8.000000     9285.714286     1300.000000
+75%    4.800000e+06   2020.000000  123000.000000     16.000000    13439.777778     1600.000000
+max    9.500000e+07   2024.000000  999999.000000     34.000000   330300.000000     9999.000000

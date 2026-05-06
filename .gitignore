@@ -1,0 +1,91 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Large datasets
+dataset/*.csv
+dataset/*.xlsx
+dataset/*.xls
+dataset/*.json
+dataset/*.parquet
+
+# Keep dataset folder structure
+!dataset/.gitkeep
+
+# Generated cleaned datasets
+dataset/truecar_merged.csv
+dataset/truecar_clean.csv
+dataset/pakwheels_clean.csv
+
+
+# Model files
+models/
+*.joblib
+*.pkl
+*.pickle
+*.sav
+
+# Generated reports and outputs
+
+reports/*.json
+reports/*.txt
+reports/*.md
+
+
+# Keep reports folder structure
+!reports/.gitkeep
+!reports/figures/.gitkeep
+
+# Generated PDF/DOCX reports
+docs/*.pdf
+docs/*.docx
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Test and coverage outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Local notebook exports
+*.html

@@ -1,0 +1,5 @@
+model,MAE,RMSE,R2,train_time_seconds
+Random Forest Tuned,2238.4218,4104.7937,0.8932,209.65
+Extra Trees,2316.4987,4326.3636,0.8814,70.66
+LightGBM,2566.7315,4426.2967,0.8758,12.63
+Hist Gradient Boosting Tuned,2716.5745,4599.394,0.8659,13.58

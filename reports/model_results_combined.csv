@@ -1,0 +1,8 @@
+model,MAE,RMSE,R2,train_time_seconds,stage
+Random Forest Tuned,2238.4218,4104.7937,0.8932,209.65,Advanced
+Extra Trees,2316.4987,4326.3636,0.8814,70.66,Advanced
+Random Forest,2362.9187,4413.7766,0.881,112.54,Baseline
+LightGBM,2566.7315,4426.2967,0.8758,12.63,Advanced
+Hist Gradient Boosting Tuned,2716.5745,4599.394,0.8659,13.58,Advanced
+Hist Gradient Boosting,2902.8881,5040.253,0.8448,7.7,Baseline
+Ridge Regression,7364.4325,11113.8699,0.2453,1.35,Baseline

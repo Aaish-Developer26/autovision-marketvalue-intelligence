@@ -1,0 +1,4 @@
+model,MAE,RMSE,R2,train_time_seconds
+Random Forest,2362.9187,4413.7766,0.881,112.54
+Hist Gradient Boosting,2902.8881,5040.253,0.8448,7.7
+Ridge Regression,7364.4325,11113.8699,0.2453,1.35
